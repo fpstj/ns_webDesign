@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
-import { NsWebDesignComponent } from './ns-web-design/ns-web-design.component';
+import { NsWebDesignComponent } from './Home/ns-web-design.component';
 
 @Component({
   selector: 'app-root',
