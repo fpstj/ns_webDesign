@@ -1,12 +1,26 @@
-.container-fluid{
-    background-color: #20202c;
+.container-fluid {
+  background-color: #20202c;
 }
 
-.hero{
-    height: 100vh;
-    background: radial-gradient(circle, rgba(75,75,121,1) 0%, rgba(42,42,66,1) 55%, rgba(32,32,44,1) 100%);
+.hero {
+  height: 100vh;
+  background: radial-gradient(
+    circle,
+    rgba(75, 75, 121, 1) 0%,
+    rgba(42, 42, 66, 1) 55%,
+    rgba(32, 32, 44, 1) 100%
+  );
 }
 
-.navbar{
-    background-color: #20202c;
+.navbar {
+  background-color: #20202c;
+}
+
+.img4 {
+  max-height: 50%;
+  width: 100%;
+}
+
+#font-color {
+  color: #6971fa !important;
 }
