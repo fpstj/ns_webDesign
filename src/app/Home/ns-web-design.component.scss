@@ -21,6 +21,11 @@
   width: 100%;
 }
 
-#font-color {
-  color: #6971fa !important;
+.table {
+  background-color: transparent !important;
+}
+
+table th,
+table td {
+  background-color: transparent !important;
 }
