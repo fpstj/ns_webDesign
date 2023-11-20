@@ -262,17 +262,17 @@
 
   <!-- Galery -->
   <div
-    class="d-flex bg-bggray justify-content-center align-items-center mb-3 py-5 m-auto"
+    class="d-flex bg-bggray justify-content-center align-items-center mb-5 py-5 m-auto"
   >
     <div class="d-flex flex-column col-md-8">
       <div class="d-flex flex-row text-lightgray justify-content-center">
-        <h1><strong>Grid</strong></h1>
+        <h1 class="text-customwhite"><strong>Grid</strong></h1>
       </div>
       <div class="d-flex flex-row text-lightgray justify-content-center">
-        <p>
+        <p class="text-customwhite">
           <strong
             >Below presented
-            <span id="font-color" class="font-color-lightblue">responsive</span>
+            <span id="text-color" class="text-lightblue">responsive</span>
             galery</strong
           >
         </p>
@@ -442,86 +442,7 @@
   </div>
 
   <!-- Table -->
-  <div class="d-flex flex-column mb-5">
-    <div class="d-flex flex-row justify-content-center">
-      <div class="d-flex flex-column col-md-8">
-        <!-- Table -->
-        <table class="table align-middle mb-0">
-          <thead class="">
-            <tr
-              class="border-top-0 border-start-0 border-end-0 border-lightblue border-4"
-            >
-              <th class="text-lightblue">Item</th>
-              <th class="text-lightblue">Description</th>
-              <th class="text-lightblue">Price</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr
-              class="border-top-0 border-start-0 border-end-0 border-lightgray border-1"
-            >
-              <td>
-                <div class="d-flex align-items-center">
-                  <p class="fw-bold mb-1 text-lightgray">Item description</p>
-                </div>
-              </td>
-              <td>
-                <p class="fw-normal mb-1 text-lightgray">
-                  Here goes item description...
-                </p>
-              </td>
-              <td class="text-lightgray">&#36;199</td>
-            </tr>
-            <tr
-              class="border-top-0 border-start-0 border-end-0 border-lightgray border-1"
-            >
-              <td>
-                <div class="d-flex align-items-center">
-                  <p class="fw-bold mb-1 text-lightgray">Item title</p>
-                </div>
-              </td>
-              <td>
-                <p class="fw-normal mb-1 text-lightgray">
-                  Here goes item description...
-                </p>
-              </td>
-              <td class="text-lightgray">&#36;299</td>
-            </tr>
-            <tr
-              class="border-top-0 border-start-0 border-end-0 border-lightgray border-1"
-            >
-              <td>
-                <div class="d-flex align-items-center">
-                  <p class="fw-bold mb-1 text-lightgray">Item title</p>
-                </div>
-              </td>
-              <td>
-                <p class="fw-normal mb-1 text-lightgray">
-                  Here goes item description...
-                </p>
-              </td>
-              <td class="text-lightgray">&#36;399</td>
-            </tr>
-            <tr
-              class="border-top-0 border-start-0 border-end-0 border-lightgray border-1"
-            >
-              <td>
-                <div class="d-flex align-items-center">
-                  <p class="fw-bold mb-1 text-lightgray">Item title</p>
-                </div>
-              </td>
-              <td>
-                <p class="fw-normal mb-1 text-lightgray">
-                  Here goes item description...
-                </p>
-              </td>
-              <td class="text-lightgray">&#36;499</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
+  <app-table></app-table>
 
   <!-- Contact Form -->
   <div class="d-flex flex-column bg-bggray py-5">

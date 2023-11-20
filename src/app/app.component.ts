@@ -9,7 +9,7 @@ import { NsWebDesignComponent } from './Home/ns-web-design.component';
   standalone: true,
   imports: [CommonModule, RouterOutlet, NsWebDesignComponent, NgbModule],
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
   title = 'ns_webDesign_assignment';
