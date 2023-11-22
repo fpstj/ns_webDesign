@@ -1,0 +1,40 @@
+<div *ngIf="product$ | async as product">
+  <div class="d-flex flex-column w-100">
+    <div class="d-flex flex-row justify-content-center mb-4 w-100">
+      <div class="carousel-item active">
+        <div class="d-flex flex-row justify-content-evenly">
+          <div
+            class="d-flex flex-row justify-content-evenly align-items-center"
+          >
+            <div class="d-flex flex-column col-4 align-items-start">
+              <div class="d-flex flex-row mb-4">
+                <h1 class="text-customwhite">
+                  {{ product.title }}
+                </h1>
+              </div>
+              <div class="d-flex flex-row justify-content-start w-100">
+                <div class="d-flex flex-column me-4">
+                  <h1 class="text-lightgray text-decoration-line-through me-4">
+                    <strong>&#36; {{ product.price }}</strong>
+                  </h1>
+                </div>
+                <div class="d-flex flex-column">
+                  <h1 class="text text-lightblue">
+                    <strong>&#36; {{ product.price }} &#8722;</strong>
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex flex-col col-4 justify-content-end">
+              <img
+                [src]="product.images"
+                alt="{{ product.title }}"
+                class="d-block w-100"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

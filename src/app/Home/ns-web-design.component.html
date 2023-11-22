@@ -1,1 +1,507 @@
-<p>ns-web-design works!</p>
+<div class="container-fluid justify-content-center bg-darkgray p-0">
+  <!-- Logo/Cart Top Navbar-->
+  <nav class="navbar px-5">
+    <div class="container-fluid">
+      <a class="navbar-brand text-lightgray">Logo</a>
+      <form class="d-flex">
+        <button
+          type="button"
+          class="btn"
+          id="dropdownMenuButton1"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <strong class="text-customwhite">Cart</strong>
+          <span class="badge rounded-circle bg-lightblue ms-3">3</span>
+        </button>
+        <ul
+          class="dropdown-menu dropdown-menu-end"
+          aria-labelledby="dropdownMenuButton1"
+        >
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </form>
+    </div>
+  </nav>
+
+  <!-- Hero container -->
+  <div
+    class="hero d-flex justify-content-center align-items-center w-100 m-auto"
+  >
+    <!-- Hero/Cart -->
+    <div class="d-flex flex-column w-100">
+      <div class="d-flex flex-row justify-content-center mb-4 w-100">
+        <div
+          id="carouselExampleIndicators"
+          class="d-flex justify-content-center align-items-center carousel slide my-3 h-75 w-75"
+        >
+          <div
+            class="d-flex justify-content-between align-items-center carousel-inner mb-5 w-100"
+          >
+            <!-- <app-carousel></app-carousel> -->
+
+            <!-- carousel item active -->
+            <div class="carousel-item active">
+              <div class="d-flex flex-row justify-content-evenly">
+                <div
+                  class="d-flex flex-row justify-content-evenly align-items-center"
+                >
+                  <div class="d-flex flex-column col-4 align-items-start">
+                    <div class="d-flex flex-row mb-4">
+                      <h1 class="text-customwhite">
+                        <strong>Apple -</strong><br />Watch Series 9<br /><small
+                          >Smartwatch with<br />Aluminum Case</small
+                        >
+                      </h1>
+                    </div>
+                    <div class="d-flex flex-row justify-content-start w-100">
+                      <div class="d-flex flex-column">
+                        <h1
+                          class="text-lightgray text-decoration-line-through me-4"
+                        >
+                          <strong>&#36; 199,</strong>
+                        </h1>
+                      </div>
+                      <div class="d-flex flex-column">
+                        <h1 class="text text-lightblue">
+                          <strong>&#36; 100, &#8722;</strong>
+                        </h1>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex flex-col col-4 justify-content-end">
+                    <img
+                      src="./assets/images/apple-watch-1.png"
+                      class="d-block w-100"
+                      alt="Product 1"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- carousel item -->
+            <div class="carousel-item">
+              <div class="d-flex flex-row justify-content-evenly">
+                <div
+                  class="d-flex flex-row justify-content-evenly align-items-center"
+                >
+                  <div class="d-flex flex-col col-4 align-items-start">
+                    <h1 class="text-customwhite">
+                      <strong>Apple -</strong><br />Watch Series 9<br /><small
+                        >Smartwatch with<br />Aluminum Case</small
+                      >
+                    </h1>
+                  </div>
+                  <div class="d-flex flex-col col-4 justify-content-end">
+                    <img
+                      src="./assets/images/apple-watch-2.png"
+                      class="d-block w-100"
+                      alt="Product 2"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- carousel item -->
+            <div class="carousel-item">
+              <div class="d-flex flex-row justify-content-evenly">
+                <div
+                  class="d-flex flex-row justify-content-evenly align-items-center"
+                >
+                  <div class="d-flex flex-col col-4 align-items-start">
+                    <h1 class="text-customwhite">
+                      <strong>Apple -</strong><br />Watch Series 9<br /><small
+                        >Smartwatch with<br />Aluminum Case</small
+                      >
+                    </h1>
+                  </div>
+                  <div class="d-flex flex-col col-4 justify-content-end">
+                    <img
+                      src="./assets/images/apple-watch-3.png"
+                      class="d-block w-100"
+                      alt="Product 3"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- carousel item -->
+            <div class="carousel-item">
+              <div class="d-flex flex-row justify-content-evenly">
+                <div
+                  class="d-flex flex-row justify-content-evenly align-items-center"
+                >
+                  <div class="d-flex flex-col col-4 align-items-start">
+                    <h1 class="text-customwhite">
+                      <strong>Apple -</strong><br />Watch Series 9<br /><small
+                        >Smartwatch with<br />Aluminum Case</small
+                      >
+                    </h1>
+                  </div>
+                  <div class="d-flex flex-col col-4 justify-content-end">
+                    <img
+                      src="./assets/images/apple-watch-4.png"
+                      class="d-block w-100"
+                      alt="Product 4"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- carousel btns -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- add to cart btn -->
+      <div class="d-flex flex-row justify-content-center">
+        <div class="d-flex flex-column col-md-8">
+          <form class="d-flex">
+            <button type="button" class="btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="50"
+                fill="white"
+                class="bi bi-plus border border-lightblue rounded-circle p-1 mb-1 me-3"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"
+                />
+              </svg>
+              <span class="text-customwhite fw-bold">ADD TO CART</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sticky Navbar -->
+  <nav
+    class="navbar navbar-expand-lg sticky-bottom px-5 w-100"
+    style="height: 50px"
+  >
+    <div class="container-fluid">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarText"
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="w-75">
+        <div class="collapse navbar-collapse float-end" id="navbarText">
+          <ul
+            class="position-absolute top-50 end-0 translate-middle-y navbar-nav me-auto pe-5 mb-2 mb-lg-0"
+          >
+            <li class="nav-item">
+              <a
+                class="nav-link active text-lightgray"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-lightgray" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-lightgray" href="#">Pricing</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Galery -->
+  <div class="image-galery d-flex flex-row justify-content-center my-5">
+    <div class="d-flex flex-column">
+      <div class="d-flex flex-row justify-content-center align-items-center">
+        <h1 class="text-customwhite">Grid</h1>
+      </div>
+      <div class="d-flex flex-row justify-content-center align-items-center">
+        <p class="text-customwhite">
+          Below is presented
+          <span class="text-lightblue">responsive</span> galery
+        </p>
+      </div>
+      <div class="d-flex flex-row">
+        <div
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <div class="wrapper">
+            <div class="galery">
+              <div class="galery__item--1">
+                <img
+                  class="image"
+                  src="./assets/images/dennis-brendel-YLNMXzXk8zs-unsplash.jpg"
+                  alt="Image 1"
+                />
+              </div>
+              <div class="galery__item--2">
+                <img
+                  class="image"
+                  src="./assets/images/pexels-cottonbro-studio-3945667.jpg"
+                  alt="Image 2"
+                />
+              </div>
+              <div class="galery__item--3">
+                <img
+                  class="image"
+                  src="./assets/images/pexels-jess-bailey-designs-788946.jpg"
+                  alt="Image 3"
+                />
+              </div>
+              <div class="galery__item--4">
+                <img
+                  class="image"
+                  src="./assets/images/pexels-kafeel-ahmed-14979010.jpg"
+                  alt="Image 4"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About -->
+  <div class="d-flex flex-column pt-4">
+    <div class="d-flex flex-row justify-content-center">
+      <h1 class="text-customwhite">About</h1>
+    </div>
+    <div class="d-flex flex-row justify-content-center mb-5">
+      <div class="d-flex flex-column col-md-6">
+        <p class="text-customwhite text-justify">
+          Welcome to ChronoCrafters, where time meets innovation in the most
+          stylish and cutting-edge manner. As a premier fictive Apple Watch
+          seller, we pride ourselves on curating a collection that seamlessly
+          blends fashion with technology. Immerse yourself in the world of
+          wristwear sophistication as we present a diverse range of Apple
+          Watches designed to elevate your lifestyle. Our LoremTech series
+          seamlessly integrates Lorem Ipsum-inspired aesthetics with the latest
+          in smartwatch technology, offering a unique fusion of timeless
+          elegance and modern functionality. At ChronoCrafters, we believe that
+          a watch is more than just a timekeeping device; it's a statement piece
+          that reflects your individuality.
+        </p>
+      </div>
+    </div>
+
+    <div class="d-flex flex-row justify-content-center">
+      <div class="d-flex flex-column col-md-8">
+        <div class="d-flex flex-row justify-content-between mb-5">
+          <div class="d-flex flex-column col-md-6">
+            <div class="d-flex flex-column mb-4">
+              <div class="d-flex flex-row">
+                <h2 class="text-customwhite">
+                  <span id="font-color" class="text-lightblue">MAIN</span>
+                  HEADING
+                </h2>
+              </div>
+              <div class="d-flex flex-row mb-4">
+                <h3 class="text-customwhite">SUBHEADER</h3>
+              </div>
+              <div class="d-flex flex-row">
+                <p class="text-customwhite">
+                  At the heart of our corporate ethos is a relentless dedication
+                  to sustainability and corporate responsibility. We understand
+                  the profound impact that businesses can have on the world, and
+                  we embrace the responsibility to contribute positively to
+                  society.
+                  <span id="font-color" class="text-lightblue"
+                    >From eco-friendly practices</span
+                  >
+                  in our operations to community outreach initiatives, we are
+                  committed to making a meaningful difference. As we navigate
+                  the ever-evolving business landscape, our commitment to
+                  ethical business practices remains unwavering. By fostering a
+                  culture of transparency and accountability, we aim to not only
+                  achieve financial success but also to create lasting value for
+                  our stakeholders and the communities we serve.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex flex-row text-customwhite">
+              <ul>
+                <li class="text-customwhite">Lirem ipsum</li>
+                <li class="text-customwhite">Lirem ipsum</li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="d-flex flex-column col-md-3 justify-content-center align-items-end"
+          >
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="btn btn-lightblue px-5 py-2"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Open modal
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Modal title
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">...</div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-customwhite"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <button type="button" class="btn btn-lightblue">
+                      Save changes
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Table -->
+  <app-table></app-table>
+
+  <!-- Contact Form -->
+  <div class="d-flex flex-column bg-bggray py-5">
+    <div class="d-flex flex-row justify-content-center">
+      <div class="d-flex flex-column col-md-8">
+        <div class="d-flex flex-row justify-content-between">
+          <div class="d-flex flex-column col-md-5">
+            <form>
+              <div class="mb-2">
+                <label
+                  for="exampleInputEmail"
+                  class="form-label text-lightgray m-0 p-0"
+                  >Full Name</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputName"
+                  aria-describedby="nameHelp"
+                  placeholder="Enter full name"
+                />
+              </div>
+              <div class="mb-2">
+                <label
+                  for="exampleInputEmail"
+                  class="form-label text-lightgray m-0 p-0"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail"
+                  aria-describedby="emailHelp"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="mb-2">
+                <label
+                  for="exampleInputPassword"
+                  class="form-label text-lightgray m-0 p-0"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword"
+                  placeholder="Password"
+                />
+              </div>
+              <div class="mb-2">
+                <label
+                  for="exampleFormControlTextarea1"
+                  class="form-label text-lightgray m-0 p-0"
+                  >Example textarea</label
+                >
+                <textarea
+                  class="form-control mb-4"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                  placeholder="Message..."
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-lightblue">Submit</button>
+            </form>
+          </div>
+          <div class="d-flex flex-column col-md-5">
+            <h3 class="text-lightgray fw-bold">Get in touch</h3>
+            <p class="text-lightgray">
+              As a leading IT company, we offer a comprehensive range of
+              services designed to empower businesses in the digital age. From
+              robust cybersecurity solutions and scalable cloud infrastructure
+              to bespoke software development and IT consulting, our team of
+              experts is committed to delivering cutting-edge solutions tailored
+              to your unique requirements.
+            </p>
+            <p class="text-lightblue">
+              <a href="#" class="text-lightblue">info&#x40;email.com</a>
+            </p>
+            <p class="text-lightblue">
+              <a href="#" class="text-lightblue">(+389) 123 45 67</a>
+            </p>
+            <p class="text-lightgray">
+              Blvd. Partizanski Odredi 13<br />1000, Skopje, Macedonia
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
