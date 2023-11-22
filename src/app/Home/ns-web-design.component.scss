@@ -16,7 +16,125 @@
   background-color: #20202c;
 }
 
-.img4 {
-  max-height: 50%;
+/* Image Grid Galery */
+.wrapper {
+  max-width: 75%;
+  padding: 16px;
+  margin: 0, auto;
+}
+
+.galery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 12.5rem);
+  gap: 2rem;
+}
+
+.galery__item--1 {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+
+.galery__item--2 {
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.galery__item--3 {
+  grid-column: 4 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.galery__item--4 {
+  grid-column: 3 / span 2;
+  grid-row: 2 / span 1;
+}
+
+.image {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding: 1rem;
+  }
+
+  .galery {
+    grid-template-columns: repeat(4 / 1fr);
+    grid-template-rows: repeat(2, 12.5rem);
+    gap: 2rem;
+  }
+
+  .galery__item--1 {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+  }
+
+  .galery__item--2 {
+    grid-column: 3 / span 2;
+    grid-row: 1 / span 1;
+  }
+
+  .galery__item--3 {
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 1;
+  }
+
+  .galery__item--4 {
+    grid-column: 3 / span 2;
+    grid-row: 2 / span 1;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .wrapper {
+    padding: 1rem;
+  }
+
+  .galery {
+    grid-template-columns: repeat(4 / 1fr);
+    grid-template-rows: repeat(4, 12.5rem);
+    gap: 2rem;
+  }
+
+  .galery__item--1 {
+    grid-column: 1 / span 4;
+    grid-row: 1 / span 1;
+  }
+
+  .galery__item--2 {
+    grid-column: 1 / span 4;
+    grid-row: 2 / span 1;
+  }
+
+  .galery__item--3 {
+    grid-column: 1 / span 4;
+    grid-row: 3 / span 1;
+  }
+
+  .galery__item--4 {
+    grid-column: 1 / span 4;
+    grid-row: 4 / span 1;
+  }
+}
+
+/* Contact Form */
+input,
+textarea {
+  border: none;
+  background-color: #20202c;
+  resize: none;
+  outline: none;
+  color: aliceblue;
+}
+
+input:focus,
+textarea:focus {
+  background: none;
+  background-color: #20202c;
+  outline: none;
+  border: none;
+  color: aliceblue;
 }

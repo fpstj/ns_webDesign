@@ -1,4 +1,4 @@
-<div class="container-fluid bg-darkgray p-0">
+<div class="container-fluid justify-content-center bg-darkgray p-0">
   <!-- Logo/Cart Top Navbar-->
   <nav class="navbar px-5">
     <div class="container-fluid">
@@ -37,37 +37,12 @@
           id="carouselExampleIndicators"
           class="d-flex justify-content-center align-items-center carousel slide my-3 h-75 w-75"
         >
-          <!-- <div class="d-flex carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="3"
-          aria-label="Slide 4"
-        ></button>
-      </div> -->
           <div
             class="d-flex justify-content-between align-items-center carousel-inner mb-5 w-100"
           >
+            <!-- <app-carousel></app-carousel> -->
+
+            <!-- carousel item active -->
             <div class="carousel-item active">
               <div class="d-flex flex-row justify-content-evenly">
                 <div
@@ -82,7 +57,7 @@
                       </h1>
                     </div>
                     <div class="d-flex flex-row justify-content-start w-100">
-                      <div class="d-flex flex-column me-4">
+                      <div class="d-flex flex-column">
                         <h1
                           class="text-lightgray text-decoration-line-through me-4"
                         >
@@ -106,6 +81,7 @@
                 </div>
               </div>
             </div>
+            <!-- carousel item -->
             <div class="carousel-item">
               <div class="d-flex flex-row justify-content-evenly">
                 <div
@@ -128,6 +104,7 @@
                 </div>
               </div>
             </div>
+            <!-- carousel item -->
             <div class="carousel-item">
               <div class="d-flex flex-row justify-content-evenly">
                 <div
@@ -150,6 +127,7 @@
                 </div>
               </div>
             </div>
+            <!-- carousel item -->
             <div class="carousel-item">
               <div class="d-flex flex-row justify-content-evenly">
                 <div
@@ -173,6 +151,7 @@
               </div>
             </div>
           </div>
+          <!-- carousel btns -->
           <button
             class="carousel-control-prev"
             type="button"
@@ -194,6 +173,7 @@
         </div>
       </div>
 
+      <!-- add to cart btn -->
       <div class="d-flex flex-row justify-content-center">
         <div class="d-flex flex-column col-md-8">
           <form class="d-flex">
@@ -261,59 +241,51 @@
   </nav>
 
   <!-- Galery -->
-  <div
-    class="d-flex bg-bggray justify-content-center align-items-center mb-5 py-5 m-auto"
-  >
-    <div class="d-flex flex-column col-md-8">
-      <div class="d-flex flex-row text-lightgray justify-content-center">
-        <h1 class="text-customwhite"><strong>Grid</strong></h1>
+  <div class="image-galery d-flex flex-row justify-content-center my-5">
+    <div class="d-flex flex-column">
+      <div class="d-flex flex-row justify-content-center align-items-center">
+        <h1 class="text-customwhite">Grid</h1>
       </div>
-      <div class="d-flex flex-row text-lightgray justify-content-center">
+      <div class="d-flex flex-row justify-content-center align-items-center">
         <p class="text-customwhite">
-          <strong
-            >Below presented
-            <span id="text-color" class="text-lightblue">responsive</span>
-            galery</strong
-          >
+          Below is presented
+          <span class="text-lightblue">responsive</span> galery
         </p>
       </div>
-      <div class="d-flex flex-row justify-content-center mb-5">
-        <!-- Flex container, wrap and center content -->
+      <div class="d-flex flex-row">
         <div
-          class="col-md-6 mb-3 me-3 d-flex flex-column justify-content-center"
+          class="d-flex flex-column justify-content-center align-items-center"
         >
-          <!-- 75% width on medium and larger screens -->
-          <img
-            src="./assets/images/dennis-brendel-YLNMXzXk8zs-unsplash.jpg"
-            alt="Image 1"
-            class="img-fluid object-fit-cover flex-grow-1"
-          />
-        </div>
-        <div class="d-flex flex-column mb-3">
-          <!-- 25% width on medium and larger screens -->
-          <div class="d-flex flex-row">
-            <div class="d-flex flex-columng col-md-6">
-              <img
-                src="./assets/images/pexels-cottonbro-studio-3945667.jpg"
-                alt="Image 2"
-                class="img-fluid object-fit-cover img-2"
-              />
-            </div>
-            <div class="d-flex flex-columng col-md-6">
-              <img
-                src="./assets/images/pexels-jess-bailey-designs-788946.jpg"
-                alt="Image 3"
-                class="img-fluid object-fit-cover img3"
-              />
-            </div>
-          </div>
-          <div class="d-flex flex-row w-100">
-            <div class="d-flex flex-column w-100">
-              <img
-                src="./assets/images/pexels-kafeel-ahmed-14979010.jpg"
-                alt="Image 4"
-                class="img-fluid object-fit-cover d-block img4"
-              />
+          <div class="wrapper">
+            <div class="galery">
+              <div class="galery__item--1">
+                <img
+                  class="image"
+                  src="./assets/images/dennis-brendel-YLNMXzXk8zs-unsplash.jpg"
+                  alt="Image 1"
+                />
+              </div>
+              <div class="galery__item--2">
+                <img
+                  class="image"
+                  src="./assets/images/pexels-cottonbro-studio-3945667.jpg"
+                  alt="Image 2"
+                />
+              </div>
+              <div class="galery__item--3">
+                <img
+                  class="image"
+                  src="./assets/images/pexels-jess-bailey-designs-788946.jpg"
+                  alt="Image 3"
+                />
+              </div>
+              <div class="galery__item--4">
+                <img
+                  class="image"
+                  src="./assets/images/pexels-kafeel-ahmed-14979010.jpg"
+                  alt="Image 4"
+                />
+              </div>
             </div>
           </div>
         </div>
