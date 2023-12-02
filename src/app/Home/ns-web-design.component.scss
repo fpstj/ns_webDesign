@@ -2,6 +2,10 @@
   background-color: #20202c;
 }
 
+.logo {
+  font-size: 2em;
+}
+
 .hero {
   height: 100vh;
   background: radial-gradient(
@@ -10,10 +14,47 @@
     rgba(42, 42, 66, 1) 55%,
     rgba(32, 32, 44, 1) 100%
   );
+
+  .title {
+    font-size: 5em;
+  }
+  .subtitle {
+    font-size: 2em !important;
+  }
 }
 
 .navbar {
   background-color: #20202c;
+}
+
+.image-galery {
+  background-color: #272731 !important;
+}
+
+.grid-title {
+  font-size: 3.2em !important;
+  font-weight: bolder !important;
+}
+
+.about-title {
+  font-size: 3.2em !important;
+  font-weight: bolder !important;
+}
+
+.main-heading {
+  font-family: "Roboto", sans-serif;
+}
+
+.contact-title {
+  font-size: 3.2em !important;
+}
+
+.contact-link {
+  text-decoration: none;
+}
+
+::placeholder {
+  color: #4f4e5e;
 }
 
 /* Image Grid Galery */
@@ -118,6 +159,10 @@
     grid-column: 1 / span 4;
     grid-row: 4 / span 1;
   }
+}
+
+ul li a {
+  font-size: 1.2em;
 }
 
 /* Contact Form */
